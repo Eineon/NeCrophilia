@@ -3,8 +3,7 @@
 
 ..  toctree::
     :maxdepth: 3
-    :caption: 目录:
 
-    底层逻辑 :ref:`StandardRule`
-    镜中面容 :ref:`CharacterRule`
-    进行游戏 :ref:`CoreRule`
+    底层逻辑 <StandardRule>
+    镜中面容 <CharacterRule>
+    进行游戏 <CoreRule>

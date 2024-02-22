@@ -3,6 +3,6 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: 目录:
+   :caption: Contents: 目录:
 
-   规则部分 :ref:`Volume2/index`
+   规则部分 <Volume2/index>
