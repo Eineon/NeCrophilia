@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Chimerism'
+project = '嵌合创生论'
 copyright = '2024, NEON-SAMA'
 author = 'NEON-SAMA'
 
