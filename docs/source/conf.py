@@ -7,7 +7,7 @@ copyright = '2024, NEON-SAMA'
 author = 'NEON-SAMA'
 
 release = 'v1.0'
-version = '2024/02/23'
+version = '1st Ddition'
 
 # -- General configuration
 

@@ -2,7 +2,7 @@
 =================================
 
 ..  toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :caption: 目录
 
     核心规则 <CoreRule>
