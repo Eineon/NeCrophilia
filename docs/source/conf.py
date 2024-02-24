@@ -3,8 +3,8 @@
 # -- Project information
 
 project = '嵌合创生论'
-copyright = '2024, NEON-SAMA'
-author = 'NEON-SAMA'
+copyright = '2024, ネオン様'
+author = 'Eineon'
 
 release = 'v1.0'
 version = '1st Ddition'

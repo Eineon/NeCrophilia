@@ -1,6 +1,8 @@
-嵌合创生论
----
-キメリエーションイズム  
+<div style="text-align: center;">
+<p style="font-size: 2em;"><b>嵌合创生论<b></p>
+キメリエーションイズム<br>
 -The misplaced overture-
-
-ネクロニカ同人拓展：[浏览链接](https://necrophilia.readthedocs.io/stable/)
+<HR>
+<i>ネクロニカ同人拓展<br>
+https://necrophilia.readthedocs.io/stable</i>
+</div>
