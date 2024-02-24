@@ -92,7 +92,7 @@
 
 <hr>
 
-**<span style="font-size: 1.1em">交互　　　　　　　　　　　　基本</span>**  
+**<span style="font-size: 1.1em">交互　　　　　　　　　　　　　　　　基本</span>**  
 ———————————————————————————————  
 `操作`  
 **执行：** FA　　　　　　**频率：** 1次/每轮
