@@ -5,3 +5,4 @@ recommonmark==0.7.1
 sphinx==7.2.6
 sphinx-markdown-tables==0.0.17
 sphinx-rtd-theme==2.0.0
+sphinx-wagtail-theme
