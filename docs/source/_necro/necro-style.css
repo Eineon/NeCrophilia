@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5 {
+  font-family: 华文中宋, 宋体;
+  }
+h1 {
+    background-color: Indigo;
+    color: White;
+    padding: 10px;
+  }
+  h2 {
+    color: BlueViolet;
+    border-bottom: 3px double;
+  }
+  h3 {
+    color: Orchid;
+    border-bottom: 1px solid;
+  }
+  h4 {
+    color: RoyalBlue;
+    border-bottom: 1px solid;
+  }
+  h5 {
+    color: Crimson;
+    border-bottom: 1px solid;
+  }
+
+.ACT {
+  font-size: 1.1em
+}
+
+.mouse-event {
+  cursor:pointer;     /*设置在该区域鼠标显示方式为手*/
+  }
+  .show {
+    position:relative;  /*设置定位为相对定位，相对原位置*/
+    bottom: 2.5em;
+    left: 5px;           /*设置相对定位的位置*/
+    z-index: 9;     /*设置显示的层级*/
+    display:none;   /*设置静态时隐藏*/
+  }
+  .mouse-event:hover .show {   /*设置鼠标事件*/
+    display:block;           /*设置鼠标悬停时显示*/
+  }

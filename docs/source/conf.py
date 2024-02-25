@@ -2,12 +2,19 @@
 
 # -- Project information
 
+master_doc = 'index'
 project = '嵌合创生论'
 copyright = '2024, ネオン様'
 author = 'Eineon'
 
-release = 'v1.0'
-version = '1st Ddition'
+release = '1st Ddition'
+version = 'v1.0'
+
+# These are options specifically for the Wagtail Theme.
+html_theme_options = dict(
+    project_name = "嵌合创生论 -The misplaced overture-",
+    github_url = "https://github.com/Eineon/NeCrophilia/tree/main/docs/source/"
+)
 
 # -- General configuration
 
@@ -19,6 +26,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'recommonmark',
     'sphinx_markdown_tables',
+    'sphinx_wagtail_theme',
 ]
 
 intersphinx_mapping = {
@@ -30,8 +38,13 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
+html_theme = 'sphinx_wagtail_theme'
+html_last_updated_fmt = "%Y/%m/%d"
+html_static_path = ["_necro"]
+html_css_files = ["necro-style.css"]
 
-html_theme = 'sphinx_rtd_theme'
+# -- Options for HTMLHelp output
+htmlhelp_basename = '嵌合创生论'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
