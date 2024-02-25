@@ -4,5 +4,5 @@
 -The misplaced overture-
 <HR>
 <i>ネクロニカ同人拓展<br>
-https://necrophilia.readthedocs.io/stable</i>
+https://necrophilia.readthedocs.io/stable/index.html</i>
 </div>
