@@ -38,7 +38,7 @@ h1 {
     border-radius: 5px;
     border: 1px solid DarkSlateBlue;
     z-index: 9;
-    width: 20em;
+    width: 30em;
     top: 100%;
   }
   .mouse-event:hover .show {
