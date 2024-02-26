@@ -8,7 +8,7 @@ h1 {
   }
   h2 {
     color: BlueViolet;
-    border-bottom: 3px double;
+    border-bottom: 5px double;
   }
   h3 {
     color: Orchid;
@@ -32,10 +32,10 @@ h1 {
   .show {
     display: none; /* 初始隐藏 */
     position: absolute; /* 绝对定位 */
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 5px;
-    border: 1px solid rgba(128, 0, 128, 0.7);
+    border: 1px solid rgba(128, 0, 128, 0.8);
     z-index: 9;
     width: 30em;
     top: 100%;
