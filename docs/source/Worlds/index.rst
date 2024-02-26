@@ -1,9 +1,8 @@
-首页
+世界设定
 =================================
 
 ..  toctree::
     :maxdepth: 2
     :caption: 目录
 
-    世界设定 <Worlds/index>
-    核心规则 <CoreRule/index>
+    灵界

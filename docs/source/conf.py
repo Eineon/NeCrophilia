@@ -3,16 +3,16 @@
 # -- Project information
 
 master_doc = 'index'
-project = '嵌合创生论'
+project = '幻日律诗'
 copyright = '2024, ネオン様'
 author = 'Eineon'
 
-release = '1st Ddition'
+release = '错位的序曲'
 version = 'v1.0'
 
 # These are options specifically for the Wagtail Theme.
 html_theme_options = dict(
-    project_name = "嵌合创生论 -The misplaced overture-",
+    project_name = "幻日律诗：错位的序曲",
     github_url = "https://github.com/Eineon/NeCrophilia/tree/main/docs/source/"
 )
 
@@ -44,7 +44,7 @@ html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
 
 # -- Options for HTMLHelp output
-htmlhelp_basename = '嵌合创生论'
+htmlhelp_basename = '幻日律诗：错位的序曲'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

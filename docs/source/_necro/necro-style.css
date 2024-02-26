@@ -23,20 +23,24 @@ h1 {
     border-bottom: 1px solid;
   }
 
-.ACT {
-  font-size: 1.1em
-}
-
 .mouse-event {
-  cursor:pointer;     /*设置在该区域鼠标显示方式为手*/
+    cursor: pointer; /* 设置鼠标样式为手指 */
+    display: inline; /* 布局 */
+    align-items: center; /* 垂直居中对齐 */
+    position: relative; /* 相对定位 */
   }
   .show {
-    position:relative;  /*设置定位为相对定位，相对原位置*/
-    bottom: 2.5em;
-    left: 5px;           /*设置相对定位的位置*/
-    z-index: 9;     /*设置显示的层级*/
-    display:none;   /*设置静态时隐藏*/
+    display: none; /* 初始隐藏 */
+    position: absolute; /* 绝对定位 */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid DarkSlateBlue;
+    z-index: 9;
+    width: 100%;
+    top: 100%;
   }
-  .mouse-event:hover .show {   /*设置鼠标事件*/
-    display:block;           /*设置鼠标悬停时显示*/
+  .mouse-event:hover .show {
+    display: block;
   }
