@@ -39,9 +39,18 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 html_theme = 'sphinx_wagtail_theme'
-html_last_updated_fmt = "%Y/%m/%d"
+# 这组 Sphinx 文档的名称。
+html_title = "幻日律诗：错位的序曲"
+# 导航栏的较短标题。
+html_short_title = "幻日律诗"
+
+html_logo = 'logo.png'
+html_favicon = 'favicon.ico'
+
 html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
+
+html_last_updated_fmt = "%Y/%m/%d"
 
 # -- Options for HTMLHelp output
 htmlhelp_basename = '幻日律诗：错位的序曲'

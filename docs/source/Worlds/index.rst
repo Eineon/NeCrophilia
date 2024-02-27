@@ -3,6 +3,5 @@
 
 ..  toctree::
     :maxdepth: 2
-    :caption: 目录
 
-    灵界
+    第一章
