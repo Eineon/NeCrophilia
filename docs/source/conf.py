@@ -44,10 +44,10 @@ html_title = "幻日律诗：错位的序曲"
 # 导航栏的较短标题。
 html_short_title = "幻日律诗"
 
+html_logo = 'logo.png'
+
 html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
-html_logo = 'logo.png'
-html_favicon = 'favicon.ico'
 
 html_last_updated_fmt = "%Y/%m/%d"
 
