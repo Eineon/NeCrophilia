@@ -15,7 +15,6 @@ html_theme_options = dict(
     project_name = "幻日律诗：错位的序曲",
     logo = 'logo.png',
     logo_alt = "回到首页",
-    favicon = 'logo.png',
     github_url = "https://github.com/Eineon/NeCrophilia/tree/main/docs/source/",
 )
 
