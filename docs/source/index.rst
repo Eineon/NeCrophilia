@@ -14,9 +14,9 @@
     | 在那黄金螺旋阶梯尽头！
     | 吾梦，吾爱其型于是！
 
-        .. raw:: html
+    .. raw:: html
 
-            <div>　　——大公爵・<span class=UP>阿斯泰尔<span>アステア</span></span></div>
+        <div>　　——大公爵・<span class=UP>阿斯泰尔<span>アステア</span></span></div>
 
 ..  toctree::
     :maxdepth: 2
