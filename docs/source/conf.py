@@ -47,7 +47,7 @@ html_short_title = "幻日律诗"
 html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
 html_logo = 'logo.png'
-html_favicon = '_necro/favicon.ico'
+html_favicon = 'favicon.ico'
 
 html_last_updated_fmt = "%Y/%m/%d"
 
