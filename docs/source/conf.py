@@ -13,7 +13,7 @@ version = 'v1.0'
 # These are options specifically for the Wagtail Theme.
 html_theme_options = dict(
     project_name = "幻日律诗：错位的序曲",
-    logo = "logo.png",
+    logo = "logo.svg",
     logo_alt = "回到首页",
     logo_height = 64,
     logo_width = 64,
@@ -28,9 +28,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'recommonmark',
     'sphinx_markdown_tables',
     'sphinx_wagtail_theme',
+    'recommonmark',
 ]
 
 intersphinx_mapping = {
@@ -40,7 +40,6 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
-
 # -- Options for HTML output
 html_theme = 'sphinx_wagtail_theme'
 # 这组 Sphinx 文档的名称。

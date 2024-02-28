@@ -1,5 +1,4 @@
 commonmark
-mock
 pillow
 recommonmark
 sphinx
