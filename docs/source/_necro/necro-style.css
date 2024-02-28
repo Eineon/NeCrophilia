@@ -24,11 +24,14 @@ h1 {
     border-bottom: 1px solid;
   }
 
+.V {
+  font-family: Wingdings;
+}
+
 .mouse-event {
-    cursor: pointer; /* 设置鼠标样式为手指 */
-    display: inline; /* 布局 */
-    align-items: center; /* 垂直居中对齐 */
-    position: relative; /* 相对定位 */
+  cursor: pointer; /* 设置鼠标样式为手指 */
+  display: inline; /* 布局 */
+  position: relative; /* 相对定位 */
   }
   .show {
     display: none; /* 初始隐藏 */
@@ -43,4 +46,16 @@ h1 {
   }
   .mouse-event:hover .show {
     display: block;
+  }
+
+.UP {
+  position: relative;
+  }
+  .UP span {
+    position: absolute;
+    bottom: 1.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    white-space: nowrap;
   }
