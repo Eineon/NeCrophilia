@@ -13,7 +13,7 @@ version = 'v1.0'
 # These are options specifically for the Wagtail Theme.
 html_theme_options = dict(
     project_name = "幻日律诗：错位的序曲",
-    logo = 'logo.png',
+    logo = "logo.png",
     logo_alt = "回到首页",
     logo_height = 64,
     logo_width = 64,
