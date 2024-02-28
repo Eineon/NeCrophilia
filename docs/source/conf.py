@@ -50,7 +50,6 @@ html_short_title = "幻日律诗"
 
 html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
-html_favicon = ["favicon.ico"]
 
 html_last_updated_fmt = "%Y/%m/%d"
 
