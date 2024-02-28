@@ -13,7 +13,10 @@ version = 'v1.0'
 # These are options specifically for the Wagtail Theme.
 html_theme_options = dict(
     project_name = "幻日律诗：错位的序曲",
-    github_url = "https://github.com/Eineon/NeCrophilia/tree/main/docs/source/"
+    logo = 'logo.png',
+    logo_alt = "回到首页",
+    favicon = 'logo.png',
+    github_url = "https://github.com/Eineon/NeCrophilia/tree/main/docs/source/",
 )
 
 # -- General configuration
@@ -43,8 +46,6 @@ html_theme = 'sphinx_wagtail_theme'
 html_title = "幻日律诗：错位的序曲"
 # 导航栏的较短标题。
 html_short_title = "幻日律诗"
-
-html_logo = 'logo.png'
 
 html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
