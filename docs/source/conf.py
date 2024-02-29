@@ -3,7 +3,7 @@
 # -- Project information
 
 master_doc = 'index'
-project = '幻日律诗'
+project = '永远的后日谈：幻日律诗'
 copyright = '2024, ネオン様'
 author = 'Eineon'
 
@@ -12,7 +12,7 @@ version = 'v1.0'
 
 # These are options specifically for the Wagtail Theme.
 html_theme_options = dict(
-    project_name = "幻日律诗：错位的序曲",
+    project_name = "Parhetry ~The Misplaced Overture~",
     logo = "logo.svg",
     logo_alt = "回到首页",
     logo_height = 64,
@@ -43,7 +43,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 html_theme = 'sphinx_wagtail_theme'
 # 这组 Sphinx 文档的名称。
-html_title = "幻日律诗：错位的序曲"
+html_title = "永远的后日谈：幻日律诗 ~错位的序曲~"
 # 导航栏的较短标题。
 html_short_title = "幻日律诗"
 
@@ -53,7 +53,7 @@ html_css_files = ["necro-style.css"]
 html_last_updated_fmt = "%Y/%m/%d"
 
 # -- Options for HTMLHelp output
-htmlhelp_basename = '幻日律诗：错位的序曲'
+htmlhelp_basename = '永远的后日谈：幻日律诗 ~错位的序曲~'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

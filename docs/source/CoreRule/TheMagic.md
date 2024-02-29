@@ -1,6 +1,5 @@
 <style>
-h3 {
-    color: RoyalBlue;
+h4 {
     font-size: 1.1em;
     border: 0;
     margin: 0;
