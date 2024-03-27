@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
   font-family: 华文中宋, 宋体;
   }
 h1 {
@@ -16,12 +16,14 @@ h1 {
     border-bottom: 1px solid;
   }
   h4 {
-    color: RoyalBlue;
+    color: Crimson;
     border-bottom: 1px solid;
   }
   h5 {
-    color: Crimson;
-    border-bottom: 1px solid;
+    color: RoyalBlue;
+    font-size: 1.1em;
+    border: 0;
+    margin: 0;
   }
 
 .V {
@@ -29,33 +31,34 @@ h1 {
 }
 
 .mouse-event {
-  cursor: pointer; /* 设置鼠标样式为手指 */
-  display: inline; /* 布局 */
   position: relative; /* 相对定位 */
+  display: inline; /* 布局 */
+  cursor: pointer; /* 设置鼠标样式为手指 */
   }
   .show {
-    display: none; /* 初始隐藏 */
-    position: absolute; /* 绝对定位 */
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-radius: 5px;
-    border: 1px solid rgba(128, 0, 128, 0.8);
-    z-index: 9;
-    width: 30em;
-    top: 100%;
+  position: absolute; /* 绝对定位 */
+  top: 100%;
+  display: none; /* 初始隐藏 */
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  color: Aquamarine;
+  font-size: 14px;
+  border-radius: 5px;
+  z-index: 9;
+  width: 30em;
   }
   .mouse-event:hover .show {
-    display: block;
-  }
+  display: block;
+}
 
 .UP {
   position: relative;
   }
   .UP span {
-    position: absolute;
-    white-space: nowrap;
-    bottom: 1.5em;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 12px;
-  }
+  position: absolute;
+  bottom: 1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  white-space: nowrap;
+}

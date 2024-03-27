@@ -7,7 +7,8 @@
     第一章
     第二章
     第三章
+    TheProps
     TheConditions
     TheActions
-    TheMagic
+    ThePsionics
     TheTags
