@@ -167,8 +167,7 @@ _/ *动作的效果描述。*<br>
 ##### 奔跑　　　　　　｜　基本
 <div>———————————————————————————————</div>
 <div class=mouse-event>
-  <a href=##><code>起手</code></a>
-  <div class=show>只能在尚未宣言过 <code>移动</code>、<code>攻击</code> 或 <code>起手</code> 动作的刻度中使用</div>
+  <a href=##><code>起手</code></a><div class=show id=起手></div>
 </div>
 
 **执行**：TA　｜　**消耗**：1+ AP<br>
@@ -282,11 +281,9 @@ X最大为 `速度/2` 。每次判断妳与不处于<飞行>状态的事物的�
 ##### 猛攻　　　　　　｜　基本
 <div>———————————————————————————————</div>
 <div class=mouse-event>
-  <a href=##><code>绝技</code></a>
-  <div class=show>每一刻最多只能宣言1次 <code>绝技</code> 动作</div>
+  <a href=##><code>绝技</code></a><div class=show id=绝技></div>
 </div><div class=mouse-event>
-  <a href=##><code>起手</code></a>
-  <div class=show>只能在尚未宣言过 <code>移动</code>、<code>攻击</code> 或 <code>起手</code> 动作的刻度中使用</div>
+  <a href=##><code>起手</code></a><div class=show id=起手></div>
 </div>
 
 **执行**：SA　｜　**消耗**：2 AP<br>
@@ -300,11 +297,9 @@ X最大为 `速度/2` 。每次判断妳与不处于<飞行>状态的事物的�
 ##### 冲锋　　　　　　｜　基本
 <div>———————————————————————————————</div>
 <div class=mouse-event>
-  <a href=##><code>绝技</code></a>
-  <div class=show>每一刻最多只能宣言1次 <code>绝技</code> 动作</div>
+  <a href=##><code>绝技</code></a><div class=show id=绝技></div>
 </div><div class=mouse-event>
-  <a href=##><code>起手</code></a>
-  <div class=show>只能在尚未宣言过 <code>移动</code>、<code>攻击</code> 或 <code>起手</code> 动作的刻度中使用</div>
+  <a href=##><code>起手</code></a><div class=show id=起手></div>
 </div>
 
 **执行**：TA　｜　**消耗**：3 AP<br>
@@ -346,12 +341,3 @@ X最大为 `速度/2` 。每次判断妳与不处于<飞行>状态的事物的�
 &emsp;领域动作又被称为能力 (Power)。部分能力具有 `自动习得` 标签。只要角色满足这种能力的「前置」条件和等级要求，她就会自动习得这种能力，并且不计入她所能习得的能力总数中。  
 
 #### 基本领域
-
-<div class=mouse-event>
-  <a href=##><code>绝技</code></a>
-  <div class=show id=绝技></div>
-</div>
-
-<script>
-    document.getElementById('绝技').innerText = "每一刻最多只能宣言1次 [绝技] 动作";
-</script>

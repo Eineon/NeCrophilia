@@ -48,6 +48,7 @@ html_short_title = "幻日咏叹调"
 
 html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
+html_js_files = ["necro-script.js"]
 
 html_last_updated_fmt = "%Y/%m/%d"
 
