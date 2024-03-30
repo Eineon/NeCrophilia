@@ -347,3 +347,11 @@ X最大为 `速度/2` 。每次判断妳与不处于<飞行>状态的事物的�
 
 #### 基本领域
 
+<div class=mouse-event>
+  <a href=##><code>绝技</code></a>
+  <div class=show id=绝技></div>
+</div>
+
+<script>
+    document.getElementById('绝技').innerText = "每一刻最多只能宣言1次 [绝技] 动作";
+</script>
