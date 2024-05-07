@@ -6,12 +6,12 @@ project = '死灵年代记：幻日咏叹调'
 copyright = '2024, ネオン様'
 author = 'Eineon'
 
-release = '错位的开幕曲'
+release = '~ 错位的开幕曲 ~'
 version = 'v1.0'
 
 # These are options specifically for the Wagtail Theme.
 html_theme_options = dict(
-    project_name = "幻日咏叹调 ~错位的开幕曲~",
+    project_name = "幻日咏叹调 ~ 错位的开幕曲 ~",
     logo = "logo.svg",
     logo_alt = "回到首页",
     logo_height = 64,
@@ -44,14 +44,22 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+
 # -- Options for HTML output
+extensions.append("sphinx_wagtail_theme")
+html_theme = 'sphinx_wagtail_theme'
+# 这组 Sphinx 文档的名称。
+html_title = "死灵年代记：幻日咏叹调"
+# 导航栏的较短标题。
+html_short_title = "幻日咏叹调"
 
 html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
 html_js_files = ["necro-script.js"]
 
 # -- Options for HTMLHelp output
-htmlhelp_basename = '死灵年代记：幻日咏叹调 ~错位的开幕曲~'
+htmlhelp_basename = '死灵年代记：幻日咏叹调 ~ 错位的开幕曲 ~'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
