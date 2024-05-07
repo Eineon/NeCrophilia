@@ -58,6 +58,10 @@ html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
 html_js_files = ["necro-script.js"]
 
+import mimetypes
+mimetypes.add_type('image/x-icon', '.ico')
+html_favicon = '_necro/favicon.ico'
+
 # -- Options for HTMLHelp output
 htmlhelp_basename = '死灵年代记：幻日咏叹调 ~ 错位的开幕曲 ~'
 
