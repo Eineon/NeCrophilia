@@ -6,10 +6,6 @@ project = '死灵年代记：幻日咏叹调'
 copyright = '2024, ネオン様'
 author = 'Eineon'
 
-<<<<<<< Updated upstream
-release = 'v1.0'
-version = '1st Ddition'
-=======
 release = '错位的开幕曲'
 version = 'v1.0'
 
@@ -25,7 +21,6 @@ html_theme_options = dict(
         "Github|https://github.com/Eineon/NeCrophilia/",
     ]),
 )
->>>>>>> Stashed changes
 
 html_last_updated_fmt = "%Y/%m/%d"
 
@@ -51,16 +46,12 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 # -- Options for HTML output
 
-<<<<<<< Updated upstream
-html_theme = 'sphinx_rtd_theme'
-=======
 html_static_path = ["_necro"]
 html_css_files = ["necro-style.css"]
 html_js_files = ["necro-script.js"]
 
 # -- Options for HTMLHelp output
 htmlhelp_basename = '死灵年代记：幻日咏叹调 ~错位的开幕曲~'
->>>>>>> Stashed changes
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
