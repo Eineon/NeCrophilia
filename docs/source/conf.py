@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = '嵌合创生论'
-copyright = '2024, NEON-SAMA'
-author = 'NEON-SAMA'
+project = '死灵年代记：幻日咏叹调'
+copyright = '2024, ネオン様'
+author = 'Eineon'
 
 <<<<<<< Updated upstream
 release = 'v1.0'
@@ -37,8 +37,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'recommonmark',
     'sphinx_markdown_tables',
+    'sphinx_wagtail_theme',
+    'recommonmark',
 ]
 
 intersphinx_mapping = {
@@ -48,7 +49,6 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
-
 # -- Options for HTML output
 
 <<<<<<< Updated upstream
