@@ -22,8 +22,6 @@ html_theme_options = dict(
     ]),
 )
 
-html_favicon = 'favicon.ico'
-
 html_last_updated_fmt = "%Y/%m/%d"
 
 # -- General configuration
