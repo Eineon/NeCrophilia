@@ -206,12 +206,12 @@ html_title = "腐生和鸣"
 # html_favicon = "_necro/*.svg"
 html_static_path = ["_necro"]
 html_css_files = [
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css",
     "https://unpkg.com/tippy.js@6/animations/scale.css",
     "necro-style.css",
 ]
 html_js_files = [
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js",
     "necro-script.js",
 ]
 templates_path = ["_necro/templet"]
