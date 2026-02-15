@@ -2,7 +2,6 @@
 
 import re
 import os
-import datetime
 from sphinx.application import Sphinx
 
 
@@ -196,8 +195,7 @@ master_doc = "index"
 language = "zh_CN"
 project = "腐生和鸣"
 version = release = "NeCrophilia"
-now = datetime.datetime.now()
-copyright = f"2024-{now.year}, Eineon"
+copyright = f"2026, Eineon"
 author = "ネオン様"
 
 # -- Options for HTML output
@@ -206,14 +204,11 @@ html_title = "腐生和鸣"
 # html_favicon = "_necro/*.svg"
 html_static_path = ["_necro"]
 html_css_files = [
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css",
     "https://unpkg.com/tippy.js@6/animations/scale.css",
     "necro-style.css",
 ]
-html_js_files = [
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js",
-    "necro-script.js",
-]
+html_js_files = ["necro-script.js"]
 templates_path = ["_necro/templet"]
 
 # -- HTML theme settings
