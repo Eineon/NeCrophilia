@@ -57,12 +57,6 @@ NODE_RULES = [
         ),
     },
     {
-        "key": re.compile(r"【hint:(.*?)】"),
-        "value": lambda m: (
-            f'<a tabindex="0" title="{m.group(1)}" class="hint footnote-reference brackets">※</a>'
-        ),
-    },
-    {
         "key": re.compile(r"（(.*?):(.*?)）"),
         "value": lambda m: (
             f'<ruby class="annot">{m.group(1)}<rt class="up-note">{m.group(2)}</rt></ruby>'
